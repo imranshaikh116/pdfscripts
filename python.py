@@ -7,7 +7,7 @@ output_folder = "output_pdfs"   # Folder to save output PDFs
 logo_path = "logo.png"          # Logo file
 
 # === Settings ===
-watermark_text = "YourBrandName"
+watermark_text = "ExamOS"
 social_links = {
     "Instagram": "https://instagram.com/examos_original",
     "Telegram": "https://t.me/ExamOSoriginal"
@@ -60,7 +60,6 @@ for file_name in os.listdir(input_folder):
             watermark_text,
             fontsize=watermark_font_size,
             color=(0.5, 0.5, 0.5),
-            render_mode=3
         )
 
         # --- Social Media Links ---
